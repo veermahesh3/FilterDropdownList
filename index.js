@@ -20,3 +20,4 @@ let txtValue=a[i].innerText || a[i].textContent;
  }
  }
  //
+ //
