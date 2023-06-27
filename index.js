@@ -10,12 +10,12 @@ let input=document.getElementById("myInput");
  let div=document.getElementById("myDropdown");
  let a=div.getElementsByTagName('a');
 
- for(let i=0;i<a.length;i++){
-let txtValue=a[i].innerText || a[i].textContent;
-  if(txtValue.toUpperCase().indexOf(filter)>-1){
-    a[i].style.display="";
-  }else{
-    a[i].style.display="none";
-  }
+//  for(let i=0;i<a.length;i++){
+// let txtValue=a[i].innerText || a[i].textContent;
+//   if(txtValue.toUpperCase().indexOf(filter)>-1){
+//     a[i].style.display="";
+//   }else{
+//     a[i].style.display="none";
+//   }
+//  }
  }
-}
